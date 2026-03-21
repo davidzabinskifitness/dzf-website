@@ -45,9 +45,6 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="border-b border-[#2a2a2a] bg-[#141414]">
         <div className="flex flex-col items-center justify-center text-center py-24 px-4">
-          <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-4">
-            The Man Behind the Method
-          </p>
           <h1 className="section-title mb-4">Biography</h1>
           <div className="gold-line mx-auto mb-6" />
           <p className="text-[#a0a0a0] text-xl max-w-2xl">

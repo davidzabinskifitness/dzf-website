@@ -48,9 +48,6 @@ export default function ExperiencePage() {
         </div>
         
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-32">
-          <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-4">
-            Background
-          </p>
           <h1 className="section-title mb-4">Experience</h1>
           <div className="gold-line" />
         </div>

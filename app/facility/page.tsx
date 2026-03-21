@@ -29,9 +29,6 @@ export default function FacilityPage() {
         </div>
         
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-32">
-          <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-4">
-            Private Facility
-          </p>
           <h1 className="section-title mb-4">The Garage</h1>
           <div className="gold-line mb-6" />
           <p className="text-[#a0a0a0] text-xl max-w-2xl">

@@ -135,9 +135,6 @@ export default function HomePage() {
       <section className="py-28 px-4 sm:px-6 bg-[#1c1c1c]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-4">
-              Services
-            </p>
             <h2 className="section-title mb-4">Train With David</h2>
             <div className="gold-line mx-auto" />
           </div>
@@ -169,7 +166,6 @@ export default function HomePage() {
       {/* Google Reviews */}
       <section className="py-24 px-4 sm:px-6 bg-[#141414]">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-6">Client Reviews</p>
           <div className="flex items-center justify-center gap-3 mb-3">
             <div className="flex gap-1 text-[#CC0000] text-3xl">★★★★★</div>
             <span className="text-white text-4xl font-black">4.9</span>
@@ -197,9 +193,6 @@ export default function HomePage() {
       <section className="py-24 px-4 sm:px-6 bg-[#1a1a1a] border-y border-[#2a2a2a]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-4">
-              Follow Along
-            </p>
             <h2 className="section-title mb-4">Connect With David</h2>
             <div className="gold-line mx-auto" />
           </div>

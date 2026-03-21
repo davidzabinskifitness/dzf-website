@@ -18,9 +18,6 @@ export default function TrainingPage() {
         </div>
         
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-32">
-          <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-4">
-            In-Person Training
-          </p>
           <h1 className="section-title mb-4">Training Style</h1>
           <div className="gold-line" />
         </div>
@@ -65,9 +62,6 @@ export default function TrainingPage() {
             />
             <div className="absolute inset-0 bg-[#141414]/70" />
             <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
-              <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-3">
-                Investment
-              </p>
               <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-wide text-white mb-3">
                 Straightforward pricing. No hidden fees.
               </h2>

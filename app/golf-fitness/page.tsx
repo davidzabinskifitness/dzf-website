@@ -54,9 +54,6 @@ export default function GolfFitnessPage() {
         </div>
         
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-32">
-          <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-4">
-            TPI Certified
-          </p>
           <h1 className="section-title mb-4">Golf Fitness Performance</h1>
           <div className="gold-line mb-6" />
           <p className="text-[#a0a0a0] text-xl max-w-2xl">
@@ -120,9 +117,6 @@ export default function GolfFitnessPage() {
         {/* The TPI Difference — expanded section */}
         <section>
           <div className="mb-10">
-            <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-3">
-              The Science Behind the Certification
-            </p>
             <h2 className="section-title text-3xl mb-4">The TPI Difference</h2>
             <div className="gold-line mb-6" />
             <p className="text-[#e5e5e5] text-lg leading-relaxed max-w-3xl">
@@ -200,7 +194,6 @@ export default function GolfFitnessPage() {
             <Image src="/images/golf-rangefinder.jpg" alt="David Zabinski on the golf course" fill className="object-cover object-center" />
           </div>
           <div className="lg:col-span-3">
-            <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-4">A Golfer First</p>
             <h2 className="section-title text-2xl mb-4">David&apos;s Golf Background</h2>
             <div className="gold-line mb-6" />
             <p className="text-[#e5e5e5] text-lg leading-relaxed mb-5">
