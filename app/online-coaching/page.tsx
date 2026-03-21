@@ -89,12 +89,16 @@ export default function OnlineCoachingPage() {
                 No pre-recorded check-ins. No AI-generated feedback. No form emails.
                 Real coaching, in real time, every week.
               </p>
-              <p className="text-white leading-relaxed">
+              <p className="text-white leading-relaxed mb-6">
                 This is where the program gets refined. David reviews your progress,
                 adjusts your training and nutrition, addresses what&apos;s working
                 and what isn&apos;t, and answers every question you have. Most online
                 coaching programs offer a monthly check-in. David gives you a weekly
                 conversation.
+              </p>
+              <p className="text-white leading-relaxed">
+                <span className="text-white font-bold">Accountability is everything.</span>{" "}
+                Knowing you have a scheduled call with David every week changes how you show up — in the gym, in the kitchen, and in your mindset. You&apos;re not just following a program. You&apos;re answering to someone who knows your goals, tracks your progress, and expects results. That weekly commitment is what separates clients who get there from clients who don&apos;t.
               </p>
             </div>
           </div>
