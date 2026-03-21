@@ -139,7 +139,7 @@ export default function OnlineCoachingPage() {
             Complete Beginners Are Welcome
           </h2>
           <p className="text-[#e5e5e5] text-lg leading-relaxed mb-4">
-            David has coached everyone online — from complete beginners who have
+            David has worked with all skill levels online — from complete beginners who have
             never touched a weight, to advanced athletes optimizing performance.
             Every program starts where you are, not where someone else is.
           </p>
