@@ -52,7 +52,7 @@ export default function Nav() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-20 md:h-24">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
@@ -61,7 +61,7 @@ export default function Nav() {
               width={160}
               height={107}
               className="object-contain"
-              style={{ clipPath: 'inset(1px 10px 1px 1px)' }}
+              style={{ clipPath: 'inset(0px 10px 0px 0px)' }}
               priority
             />
           </Link>
