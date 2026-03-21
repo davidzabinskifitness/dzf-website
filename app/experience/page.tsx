@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 };
 
 const experience = [
+  "18,000+ Personal Training Sessions Completed",
   "13+ Years Personal Training",
   "7+ Years Independent Training, David Zabinski Fitness — Houston, TX",
   "4 Years Equinox Tier 3+ Trainer — Houston, TX",
