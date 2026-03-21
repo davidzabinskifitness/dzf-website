@@ -24,18 +24,6 @@ export default function TrainingPage() {
       </section>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-20">
-        {/* Main description */}
-        <div className="max-w-3xl mb-20">
-          <p className="text-[#e5e5e5] text-xl leading-relaxed">
-            With over 13 years in the industry, David cuts through the noise and
-            focuses on science-backed training principles that deliver real
-            results. Every program is built around you — your goals, your body,
-            and your life. David adapts to what you need, whether that means
-            strength, fat loss, mobility, or performance. No cookie-cutter
-            programs. Just smart, personalized coaching.
-          </p>
-        </div>
-
         {/* Philosophy — image banner with text overlay */}
         <div className="mb-20">
           <div className="relative overflow-hidden mb-10">
