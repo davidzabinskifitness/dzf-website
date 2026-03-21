@@ -15,8 +15,8 @@ export default function WaiverPage() {
           </p>
           <h1 className="section-title mb-4">Client Liability Waiver</h1>
           <div className="w-16 h-[3px] bg-[#CC0000] mx-auto mb-4" />
-          <p className="text-[#a0a0a0] text-sm">& Informed Consent</p>
-          <div className="mt-6 text-[#a0a0a0] text-sm space-y-1">
+          <p className="text-white text-sm">& Informed Consent</p>
+          <div className="mt-6 text-white text-sm space-y-1">
             <p className="font-semibold text-white">David Zabinski Fitness</p>
             <p>5528 Cornish St Unit A, Houston TX 77007</p>
             <p>
@@ -170,7 +170,7 @@ export default function WaiverPage() {
             <label className="block text-[#CC0000] text-xs font-bold tracking-[0.2em] uppercase mb-2">
               Medical Conditions, Injuries, or Physical Limitations
             </label>
-            <p className="text-[#a0a0a0] text-xs mb-2">
+            <p className="text-white text-xs mb-2">
               Please list any current or past injuries, surgeries, medical conditions, medications, or physical limitations that David should be aware of.
             </p>
             <textarea

@@ -76,8 +76,8 @@ export default function TrainingPage() {
                 1-on-1 Training
               </h3>
               <div className="text-[#CC0000] text-3xl font-black mb-1">$120</div>
-              <div className="text-[#a0a0a0] text-xs tracking-widest uppercase mb-4">per session</div>
-              <p className="text-[#a0a0a0] text-sm leading-relaxed flex-1">
+              <div className="text-white text-xs tracking-widest uppercase mb-4">per session</div>
+              <p className="text-white text-sm leading-relaxed flex-1">
                 Private one-on-one session with David at The Garage. Fully customized programming, hands-on coaching, and direct accountability.
               </p>
             </div>
@@ -88,9 +88,9 @@ export default function TrainingPage() {
                 Partner Training
               </h3>
               <div className="text-[#CC0000] text-3xl font-black mb-1">$150</div>
-              <div className="text-[#a0a0a0] text-xs tracking-widest uppercase mb-1">per session</div>
-              <div className="text-[#a0a0a0] text-xs mb-4">($75/person)</div>
-              <p className="text-[#a0a0a0] text-sm leading-relaxed flex-1">
+              <div className="text-white text-xs tracking-widest uppercase mb-1">per session</div>
+              <div className="text-white text-xs mb-4">($75/person)</div>
+              <p className="text-white text-sm leading-relaxed flex-1">
                 Train with a partner. Split the cost, share the energy. Same personalized attention, same results-driven approach.
               </p>
             </div>
@@ -101,8 +101,8 @@ export default function TrainingPage() {
                 Online Coaching
               </h3>
               <div className="text-[#CC0000] text-3xl font-black mb-1">Custom</div>
-              <div className="text-[#a0a0a0] text-xs tracking-widest uppercase mb-4">pricing</div>
-              <p className="text-[#a0a0a0] text-sm leading-relaxed flex-1">
+              <div className="text-white text-xs tracking-widest uppercase mb-4">pricing</div>
+              <p className="text-white text-sm leading-relaxed flex-1">
                 Fully personalized online coaching with weekly live Zoom calls. Apply to see if you&apos;re a good fit.
               </p>
               <Link
@@ -114,7 +114,7 @@ export default function TrainingPage() {
             </div>
           </div>
 
-          <p className="text-center text-[#a0a0a0] text-sm mb-8">
+          <p className="text-center text-white text-sm mb-8">
             Session packages and monthly rates available. Contact David to discuss options that fit your schedule and goals.
           </p>
           <div className="text-center">
@@ -129,7 +129,7 @@ export default function TrainingPage() {
           <h2 className="text-2xl font-bold uppercase tracking-wide text-white mb-4">
             Ready to Train?
           </h2>
-          <p className="text-[#a0a0a0] mb-8 max-w-xl mx-auto">
+          <p className="text-white mb-8 max-w-xl mx-auto">
             Book a session and experience what it means to train with a true
             professional.
           </p>

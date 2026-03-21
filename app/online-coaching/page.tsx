@@ -37,7 +37,7 @@ export default function OnlineCoachingPage() {
           </p>
           <h1 className="section-title mb-4">Online Coaching</h1>
           <div className="gold-line mb-6" />
-          <p className="text-[#a0a0a0] text-xl max-w-2xl">
+          <p className="text-white text-xl max-w-2xl">
             David&apos;s expertise. Your schedule. Anywhere in the world.
           </p>
         </div>
@@ -89,7 +89,7 @@ export default function OnlineCoachingPage() {
                 No pre-recorded check-ins. No AI-generated feedback. No form emails.
                 Real coaching, in real time, every week.
               </p>
-              <p className="text-[#a0a0a0] leading-relaxed">
+              <p className="text-white leading-relaxed">
                 This is where the program gets refined. David reviews your progress,
                 adjusts your training and nutrition, addresses what&apos;s working
                 and what isn&apos;t, and answers every question you have. Most online
@@ -171,17 +171,17 @@ export default function OnlineCoachingPage() {
             <div className="bg-[#1a1a1a] border border-[#2a2a2a] p-8 flex flex-col gap-4 hover:border-[#CC0000] transition-colors">
               <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase">3 Months</p>
               <p className="text-4xl font-black text-white">$1,200</p>
-              <p className="text-[#a0a0a0] text-sm">Save vs. month-to-month</p>
+              <p className="text-white text-sm">Save vs. month-to-month</p>
             </div>
             {/* 6 Months */}
             <div className="bg-[#CC0000]/5 border-2 border-[#CC0000] p-8 flex flex-col gap-4 relative">
               <span className="absolute top-4 right-4 text-xs font-bold bg-[#CC0000] text-white px-3 py-1 uppercase tracking-widest">Best Value</span>
               <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase">6 Months</p>
               <p className="text-4xl font-black text-white">$2,100</p>
-              <p className="text-[#a0a0a0] text-sm">Maximum results, maximum savings</p>
+              <p className="text-white text-sm">Maximum results, maximum savings</p>
             </div>
           </div>
-          <p className="text-[#a0a0a0] text-sm leading-relaxed mb-8">
+          <p className="text-white text-sm leading-relaxed mb-8">
             Pricing includes weekly 1-on-1 Zoom calls, custom programming, nutrition guidance, and direct access to David.
           </p>
           <Link href="/contact" className="btn-primary">

@@ -62,7 +62,7 @@ export default function ContactPage() {
               <ul className="space-y-6">
                 {contactInfo.map((info) => (
                   <li key={info.label}>
-                    <p className="text-[#a0a0a0] text-xs tracking-widest uppercase mb-1">
+                    <p className="text-white text-xs tracking-widest uppercase mb-1">
                       {info.label}
                     </p>
                     <a
@@ -85,7 +85,7 @@ export default function ContactPage() {
             </div>
 
             <div className="border-t border-[#2a2a2a] pt-8">
-              <p className="text-[#a0a0a0] text-sm leading-relaxed">
+              <p className="text-white text-sm leading-relaxed">
                 Located in Cottage Grove, Houston — less than 30 seconds off
                 I-10 and TC Jester.
               </p>

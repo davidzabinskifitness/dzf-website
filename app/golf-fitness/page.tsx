@@ -148,7 +148,7 @@ export default function GolfFitnessPage() {
                     {principle.title}
                   </h3>
                 </div>
-                <p className="text-[#a0a0a0] leading-relaxed text-sm">
+                <p className="text-white leading-relaxed text-sm">
                   {principle.description}
                 </p>
               </div>

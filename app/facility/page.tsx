@@ -108,7 +108,7 @@ export default function FacilityPage() {
                 <p className="text-white font-bold text-lg mb-2">
                   5528 Cornish St Unit A
                 </p>
-                <p className="text-[#a0a0a0] mb-4">Houston, TX 77007</p>
+                <p className="text-white mb-4">Houston, TX 77007</p>
                 <p className="text-[#e5e5e5] leading-relaxed">
                   Located in Cottage Grove just south of the Heights, off TC
                   Jester and I-10 — less than 30 seconds off the highway.
