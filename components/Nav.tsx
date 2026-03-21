@@ -52,14 +52,14 @@ export default function Nav() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-20 md:h-24">
+        <div className="flex items-center justify-between h-24 md:h-28">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
               src="/images/logo-white.png"
               alt="David Zabinski Fitness"
-              width={160}
-              height={107}
+              width={190}
+              height={127}
               className="object-contain"
               style={{ clipPath: 'inset(0px 10px 0px 0px)' }}
               priority
