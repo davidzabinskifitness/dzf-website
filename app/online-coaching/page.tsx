@@ -98,7 +98,7 @@ export default function OnlineCoachingPage() {
               </p>
               <p className="text-white leading-relaxed">
                 <span className="text-white font-bold">Accountability is everything.</span>{" "}
-                Knowing you have a scheduled call with David every week changes how you show up — in the gym, in the kitchen, and in your mindset. You&apos;re not just following a program. You&apos;re answering to someone who knows your goals, tracks your progress, and expects results. That weekly commitment is what separates clients who get there from clients who don&apos;t.
+                Knowing you have a scheduled call with David every week changes how you show up — in the gym, in the kitchen, and in your mindset. You&apos;re not just following a program. You&apos;re answering to someone who knows your goals, tracks your progress, and expects results. Every call, David comes prepared — reviewing your data, your numbers, your effort — so there&apos;s nowhere to hide and no room for excuses. That weekly commitment is what separates clients who get there from clients who don&apos;t.
               </p>
             </div>
           </div>
