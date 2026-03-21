@@ -36,40 +36,37 @@ export default function TrainingPage() {
           </p>
         </div>
 
-        {/* Philosophy */}
+        {/* Philosophy — image banner with text overlay */}
         <div className="mb-20">
-          <div className="bg-[#1a1a1a] border border-[#2a2a2a] p-10">
-            <h2 className="section-title text-2xl mb-6">The Approach</h2>
-            <div className="gold-line mb-8" />
-            <p className="text-white text-xl leading-relaxed mb-6">
-              David&apos;s training is built on evidence-based principles designed to optimize both physical and mental performance. No cookie-cutter programs. No guesswork. Every session is purposeful — built around where you are, where you&apos;re going, and what your body actually needs to get there.
-            </p>
-            <p className="text-white text-xl leading-relaxed mb-6">
-              The process is simple: <span className="text-[#CC0000] font-bold">assess, design, execute, adapt.</span> David starts by understanding you — your history, your goals, your limitations — then builds a complete plan of attack to get you looking and feeling your best. And as you progress, the program evolves with you.
-            </p>
-            <p className="text-white text-xl leading-relaxed">
-              Every client is different. Every program is different. That&apos;s not a selling point — that&apos;s just how real coaching works.
-            </p>
-          </div>
-        </div>
-
-        {/* Pricing / Investment — with full-width facility image behind header */}
-        <div className="mb-20">
-          {/* Image banner above pricing */}
-          <div className="relative h-56 sm:h-72 overflow-hidden mb-12">
+          <div className="relative overflow-hidden mb-10">
             <Image
               src="/images/facility-interior.jpg"
               alt="The Garage — David Zabinski Fitness private facility"
               fill
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-[#141414]/70" />
-            <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
-              <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-wide text-white mb-3">
-                Investment
-              </h2>
-              <div className="gold-line mx-auto" />
+            <div className="absolute inset-0 bg-[#141414]/75" />
+            <div className="relative z-10 px-8 sm:px-14 py-16">
+              <h2 className="section-title mb-4">The Approach</h2>
+              <div className="gold-line mb-8" />
+              <p className="text-white text-xl leading-relaxed mb-6 max-w-3xl">
+                David&apos;s training is built on evidence-based principles designed to optimize both physical and mental performance. No cookie-cutter programs. No guesswork. Every session is purposeful — built around where you are, where you&apos;re going, and what your body actually needs to get there.
+              </p>
+              <p className="text-white text-xl leading-relaxed mb-6 max-w-3xl">
+                The process is simple: <span className="text-[#CC0000] font-bold">assess, design, execute, adapt.</span> David starts by understanding you — your history, your goals, your limitations — then builds a complete plan of attack to get you looking and feeling your best. And as you progress, the program evolves with you.
+              </p>
+              <p className="text-white text-xl leading-relaxed max-w-3xl">
+                Every client is different. Every program is different. That&apos;s not a selling point — that&apos;s just how real coaching works.
+              </p>
             </div>
+          </div>
+        </div>
+
+        {/* Pricing / Investment */}
+        <div className="mb-20">
+          <div className="mb-12 text-center">
+            <h2 className="section-title mb-4">Investment</h2>
+            <div className="gold-line mx-auto" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
