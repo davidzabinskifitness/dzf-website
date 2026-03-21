@@ -49,14 +49,8 @@ export default function TrainingPage() {
             <div className="relative z-10 px-8 sm:px-14 py-16">
               <h2 className="section-title mb-4">The Approach</h2>
               <div className="gold-line mb-8" />
-              <p className="text-white text-xl leading-relaxed mb-6 max-w-3xl">
-                David&apos;s training is built on evidence-based principles designed to optimize both physical and mental performance. No cookie-cutter programs. No guesswork. Every session is purposeful — built around where you are, where you&apos;re going, and what your body actually needs to get there.
-              </p>
-              <p className="text-white text-xl leading-relaxed mb-6 max-w-3xl">
-                The process is simple: <span className="text-[#CC0000] font-bold">assess, design, execute, adapt.</span> David starts by understanding you — your history, your goals, your limitations — then builds a complete plan of attack to get you looking and feeling your best. And as you progress, the program evolves with you.
-              </p>
               <p className="text-white text-xl leading-relaxed max-w-3xl">
-                Every client is different. Every program is different. That&apos;s not a selling point — that&apos;s just how real coaching works.
+                With over 13 years in the industry, David cuts through the noise and focuses on science-backed training principles that deliver real results. Every program is built around you — your goals, your body, and your life. David adapts to what you need, whether that means strength, fat loss, mobility, or performance. No cookie-cutter programs. Just smart, personalized coaching.
               </p>
             </div>
           </div>
