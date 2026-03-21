@@ -47,7 +47,7 @@ export default function AboutPage() {
         <div className="flex flex-col items-center justify-center text-center py-24 px-4">
           <h1 className="section-title mb-4">Biography</h1>
           <div className="gold-line mx-auto mb-6" />
-          <p className="text-[#a0a0a0] text-xl max-w-2xl">
+          <p className="text-white text-2xl sm:text-3xl max-w-2xl font-semibold tracking-wide" style={{ textShadow: "1px 2px 8px rgba(0,0,0,0.8)" }}>
             Helping you live better through health and fitness, one day at a time.
           </p>
         </div>

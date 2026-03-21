@@ -31,7 +31,7 @@ export default function FacilityPage() {
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-32">
           <h1 className="section-title mb-4">The Garage</h1>
           <div className="gold-line mb-6" />
-          <p className="text-[#a0a0a0] text-xl max-w-2xl">
+          <p className="text-white text-2xl sm:text-3xl max-w-2xl font-semibold tracking-wide" style={{ textShadow: "1px 2px 8px rgba(0,0,0,0.8)" }}>
             A private training environment built for results.
           </p>
         </div>
