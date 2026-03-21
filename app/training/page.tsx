@@ -39,13 +39,16 @@ export default function TrainingPage() {
         {/* Philosophy */}
         <div className="mb-20">
           <div className="bg-[#1a1a1a] border border-[#2a2a2a] p-10">
-            <h2 className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-6">
-              The Approach
-            </h2>
-            <p className="text-[#e5e5e5] text-xl leading-relaxed">
-              David&apos;s approach is simple: assess, design, execute, adapt.
-              Every client is different. Every program is different. That&apos;s
-              the point.
+            <h2 className="section-title text-2xl mb-6">The Approach</h2>
+            <div className="gold-line mb-8" />
+            <p className="text-white text-xl leading-relaxed mb-6">
+              David&apos;s training is built on evidence-based principles designed to optimize both physical and mental performance. No cookie-cutter programs. No guesswork. Every session is purposeful — built around where you are, where you&apos;re going, and what your body actually needs to get there.
+            </p>
+            <p className="text-white text-xl leading-relaxed mb-6">
+              The process is simple: <span className="text-[#CC0000] font-bold">assess, design, execute, adapt.</span> David starts by understanding you — your history, your goals, your limitations — then builds a complete plan of attack to get you looking and feeling your best. And as you progress, the program evolves with you.
+            </p>
+            <p className="text-white text-xl leading-relaxed">
+              Every client is different. Every program is different. That&apos;s not a selling point — that&apos;s just how real coaching works.
             </p>
           </div>
         </div>
