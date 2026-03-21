@@ -61,7 +61,6 @@ export default function Nav() {
               width={120}
               height={80}
               className="object-contain"
-              style={{ marginLeft: "-8px" }}
               priority
             />
           </Link>
