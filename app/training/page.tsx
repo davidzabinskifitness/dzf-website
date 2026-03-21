@@ -66,7 +66,7 @@ export default function TrainingPage() {
             <div className="absolute inset-0 bg-[#141414]/70" />
             <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
               <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-wide text-white mb-3">
-                Straightforward pricing. No hidden fees.
+                Investment
               </h2>
               <div className="gold-line mx-auto" />
             </div>
