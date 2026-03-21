@@ -143,13 +143,7 @@ export default function OnlineCoachingPage() {
             never touched a weight, to advanced athletes optimizing performance.
             Every program starts where you are, not where someone else is.
           </p>
-          <p className="text-[#e5e5e5] text-lg leading-relaxed">
-            Beginners are often where the most dramatic transformations happen.
-            If you&apos;re just starting out, you&apos;re in the right place.
-            David will meet you exactly where you are and build you up the right
-            way — with real technique, real programming, and a coach who
-            actually shows up every week.
-          </p>
+
         </section>
 
         {/* Who It's For */}
