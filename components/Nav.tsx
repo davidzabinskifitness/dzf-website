@@ -61,7 +61,7 @@ export default function Nav() {
               width={160}
               height={107}
               className="object-contain"
-              style={{ clipPath: 'inset(2px 10px 2px 2px)' }}
+              style={{ clipPath: 'inset(1px 10px 1px 1px)' }}
               priority
             />
           </Link>
