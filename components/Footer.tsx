@@ -28,7 +28,7 @@ export default function Footer() {
                   width={100}
                   height={67}
                   className="object-contain"
-                  style={{ clipPath: 'inset(0px 10px 0px 0px)' }}
+                  style={{ clipPath: 'inset(0px 6px 0px 0px)' }}
                 />
               </Link>
             </div>
