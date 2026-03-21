@@ -58,10 +58,10 @@ export default function Nav() {
             <Image
               src="/images/logo-white.png"
               alt="David Zabinski Fitness"
-              width={120}
-              height={80}
+              width={160}
+              height={107}
               className="object-contain"
-              style={{ clipPath: 'inset(2px 8px 2px 2px)' }}
+              style={{ clipPath: 'inset(2px 10px 2px 2px)' }}
               priority
             />
           </Link>
