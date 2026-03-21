@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  --background: #141414;
+  --foreground: #ffffff;
+  --accent: #CC0000;
+  --gray-light: #e5e5e5;
+  --gray-mid: #a0a0a0;
+  --surface: #1a1a1a;
+  --border: #2a2a2a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.gold-line {
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent);
+  margin: 1.5rem 0;
+}
+
+.section-title {
+  font-family: var(--font-baskerville), Georgia, serif;
+  font-size: clamp(2rem, 4.5vw, 3.8rem);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.6), 0px 0px 20px rgba(204, 0, 0, 0.15);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-baskerville), Georgia, serif;
+  letter-spacing: 0.03em;
+  text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.6), 0px 0px 20px rgba(204, 0, 0, 0.15);
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.85rem 2rem;
+  transition: all 0.2s ease;
+  font-size: 0.875rem;
+}
+
+.btn-primary:hover {
+  background-color: #aa0000;
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  display: inline-block;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.85rem 2rem;
+  transition: all 0.2s ease;
+  font-size: 0.875rem;
+}
+
+.btn-outline:hover {
+  background-color: var(--accent);
+  color: #fff;
+  transform: translateY(-1px);
+}
