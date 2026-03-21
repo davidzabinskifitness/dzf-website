@@ -18,7 +18,7 @@ export default function TrainingPage() {
         </div>
         
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-32">
-          <h1 className="section-title mb-4">Training Style</h1>
+          <h1 className="section-title mb-4">Training</h1>
           <div className="gold-line" />
         </div>
       </section>
