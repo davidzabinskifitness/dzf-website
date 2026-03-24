@@ -21,6 +21,7 @@ export default function WaiverPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    e.stopPropagation();
     // Manual validation — don't rely on HTML5 required
     if (!name.trim()) { setError("Please enter your full name."); return; }
     if (!dob.trim()) { setError("Please enter your date of birth."); return; }
@@ -50,8 +51,9 @@ export default function WaiverPage() {
       });
       if (!res.ok) throw new Error("Failed");
       setSubmitted(true);
-    } catch {
-      setError("Something went wrong. Please try again or call (713) 822-0738.");
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : "Unknown error";
+      setError(`Submission failed: ${message}. Please call (713) 822-0738.`);
     } finally {
       setLoading(false);
     }
