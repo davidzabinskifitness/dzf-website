@@ -48,7 +48,7 @@ export default function ContactPage() {
             {/* Headshot */}
             <div className="relative aspect-[4/5] overflow-hidden">
               <Image
-                src="/images/contact-headshot.jpg"
+                src="/images/contact-watch.jpg"
                 alt="David Zabinski"
                 fill
                 className="object-cover object-top"
