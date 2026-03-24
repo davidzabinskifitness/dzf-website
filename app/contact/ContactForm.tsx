@@ -19,9 +19,26 @@ export default function ContactForm() {
   });
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setLoading(true);
+    setError("");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formState),
+      });
+      if (!res.ok) throw new Error("Failed");
+      setSubmitted(true);
+    } catch {
+      setError("Something went wrong. Please try again or call (713) 822-0738.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (submitted) {
@@ -128,11 +145,13 @@ export default function ContactForm() {
         />
       </div>
 
+      {error && <p className="text-[#CC0000] text-sm">{error}</p>}
       <button
         type="submit"
-        className="btn-primary w-full sm:w-auto px-12 py-4"
+        disabled={loading}
+        className="btn-primary w-full sm:w-auto px-12 py-4 disabled:opacity-50"
       >
-        Send Message
+        {loading ? "Sending..." : "Send Message"}
       </button>
     </form>
   );
