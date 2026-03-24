@@ -21,10 +21,15 @@ export default function WaiverPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!acknowledged) {
-      setError("You must acknowledge and agree to the waiver before submitting.");
-      return;
-    }
+    // Manual validation — don't rely on HTML5 required
+    if (!name.trim()) { setError("Please enter your full name."); return; }
+    if (!dob.trim()) { setError("Please enter your date of birth."); return; }
+    if (!email.trim()) { setError("Please enter your email."); return; }
+    if (!emergencyName.trim()) { setError("Please enter an emergency contact name."); return; }
+    if (!emergencyPhone.trim()) { setError("Please enter an emergency contact phone."); return; }
+    if (!date.trim()) { setError("Please enter the date signed."); return; }
+    if (!signature.trim()) { setError("Please type your full name as your signature."); return; }
+    if (!acknowledged) { setError("You must check the acknowledgment box before submitting."); return; }
     setLoading(true);
     setError("");
     try {
@@ -195,7 +200,6 @@ export default function WaiverPage() {
                 </label>
                 <input
                   type="text"
-                  required
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   className="w-full bg-[#141414] border border-[#333] text-white px-4 py-3 focus:outline-none focus:border-[#CC0000] transition-colors placeholder-[#555] text-sm"
@@ -209,7 +213,6 @@ export default function WaiverPage() {
                 </label>
                 <input
                   type="date"
-                  required
                   value={dob}
                   onChange={(e) => setDob(e.target.value)}
                   className="w-full bg-[#141414] border border-[#333] text-white px-4 py-3 focus:outline-none focus:border-[#CC0000] transition-colors text-sm"
@@ -222,7 +225,6 @@ export default function WaiverPage() {
                 </label>
                 <input
                   type="email"
-                  required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="w-full bg-[#141414] border border-[#333] text-white px-4 py-3 focus:outline-none focus:border-[#CC0000] transition-colors placeholder-[#555] text-sm"
@@ -249,7 +251,6 @@ export default function WaiverPage() {
                 </label>
                 <input
                   type="text"
-                  required
                   value={emergencyName}
                   onChange={(e) => setEmergencyName(e.target.value)}
                   className="w-full bg-[#141414] border border-[#333] text-white px-4 py-3 focus:outline-none focus:border-[#CC0000] transition-colors placeholder-[#555] text-sm"
@@ -263,7 +264,6 @@ export default function WaiverPage() {
                 </label>
                 <input
                   type="tel"
-                  required
                   value={emergencyPhone}
                   onChange={(e) => setEmergencyPhone(e.target.value)}
                   className="w-full bg-[#141414] border border-[#333] text-white px-4 py-3 focus:outline-none focus:border-[#CC0000] transition-colors placeholder-[#555] text-sm"
@@ -294,7 +294,6 @@ export default function WaiverPage() {
               </label>
               <input
                 type="date"
-                required
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
                 className="w-full sm:w-48 bg-[#141414] border border-[#333] text-white px-4 py-3 focus:outline-none focus:border-[#CC0000] transition-colors text-sm"
@@ -338,7 +337,6 @@ export default function WaiverPage() {
               </label>
               <input
                 type="text"
-                required
                 value={signature}
                 onChange={(e) => setSignature(e.target.value)}
                 className="w-full bg-[#141414] border border-[#333] text-white px-4 py-3 focus:outline-none focus:border-[#CC0000] transition-colors placeholder-[#555] text-sm italic"
