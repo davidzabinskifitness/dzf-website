@@ -51,7 +51,7 @@ export default function ContactPage() {
                 src="/images/contact-watch.jpg"
                 alt="David Zabinski"
                 fill
-                className="object-cover object-top"
+                className="object-cover object-top brightness-125"
               />
             </div>
 
