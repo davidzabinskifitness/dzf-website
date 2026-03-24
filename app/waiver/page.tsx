@@ -214,10 +214,11 @@ export default function WaiverPage() {
                   Date of Birth *
                 </label>
                 <input
-                  type="date"
+                  type="text"
                   value={dob}
                   onChange={(e) => setDob(e.target.value)}
-                  className="w-full bg-[#141414] border border-[#333] text-white px-4 py-3 focus:outline-none focus:border-[#CC0000] transition-colors text-sm"
+                  placeholder="MM/DD/YYYY"
+                  className="w-full bg-[#141414] border border-[#333] text-white px-4 py-3 focus:outline-none focus:border-[#CC0000] transition-colors placeholder-[#555] text-sm"
                 />
               </div>
 
@@ -295,10 +296,11 @@ export default function WaiverPage() {
                 Date Signed *
               </label>
               <input
-                type="date"
+                type="text"
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
-                className="w-full sm:w-48 bg-[#141414] border border-[#333] text-white px-4 py-3 focus:outline-none focus:border-[#CC0000] transition-colors text-sm"
+                placeholder="MM/DD/YYYY"
+                className="w-full sm:w-48 bg-[#141414] border border-[#333] text-white px-4 py-3 focus:outline-none focus:border-[#CC0000] transition-colors placeholder-[#555] text-sm"
               />
             </div>
           </section>
