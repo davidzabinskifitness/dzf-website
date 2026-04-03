@@ -3,9 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Online Coaching | David Zabinski Fitness",
+  title: "Online Personal Training | Remote Fitness Coaching Anywhere",
   description:
-    "Online personal training with David Zabinski. Weekly live Zoom calls, custom programming, nutrition guidance, and direct access — anywhere in the world.",
+    "Remote personal training from David Zabinski. Weekly 1-on-1 coaching, custom programming, nutrition guidance, and direct support. Train anywhere in the world.",
+  openGraph: {
+    title: "Online Personal Training | David Zabinski Fitness",
+    description:
+      "Expert remote coaching with weekly Zoom calls and custom programming.",
+  },
 };
 
 const included = [

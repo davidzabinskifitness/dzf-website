@@ -3,9 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Golf Fitness | David Zabinski Fitness",
+  title: "TPI Golf Fitness Training Houston, TX | David Zabinski",
   description:
-    "TPI-certified golf fitness training in Houston, TX. Improve your mobility, rotational power, and performance on the course with David Zabinski.",
+    "TPI-certified golf fitness coaching in Houston. Improve mobility, rotational power, and swing performance. 13+ years experience with PGA-level training methods.",
+  openGraph: {
+    title: "TPI Golf Fitness Training Houston, TX | David Zabinski",
+    description:
+      "Golf fitness training to improve your swing and performance on the course.",
+  },
 };
 
 const tpiPrinciples = [

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://davidzabinskifitness.com/sitemap.xml
+Sitemap: https://traindzf.com/sitemap.xml

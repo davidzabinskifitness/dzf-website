@@ -3,9 +3,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Training | David Zabinski Fitness",
+  title: "Personal Training Houston, TX | In-Person Strength & Fitness Coaching",
   description:
-    "Science-backed personal training in Houston, TX. 13+ years in the industry. Strength, fat loss, golf fitness, movement, and longevity — built around you.",
+    "One-on-one personal training in Houston. Expert strength coaching, fat loss programming, and movement training. 13+ years experience, 18,000+ sessions delivered.",
+  openGraph: {
+    title: "Personal Training Houston, TX | David Zabinski Fitness",
+    description: "Expert personal training and strength coaching in Houston.",
+  },
 };
 
 export default function TrainingPage() {
