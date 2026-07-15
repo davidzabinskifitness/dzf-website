@@ -49,15 +49,6 @@ export default function OnlineCoachingPage() {
       </section>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-20 space-y-16">
-        {/* Intro */}
-        <section className="max-w-3xl">
-          <p className="text-[#e5e5e5] text-xl leading-relaxed">
-            Online coaching with David gives you the same science-backed
-            programming and nutrition guidance his in-person clients receive —
-            built around your life, your goals, and your schedule.
-          </p>
-        </section>
-
         {/* The Package — price + what's included, up front */}
         <section>
           <h2 className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-8">
