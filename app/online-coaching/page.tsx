@@ -52,15 +52,62 @@ export default function OnlineCoachingPage() {
         {/* Intro */}
         <section className="max-w-3xl">
           <p className="text-[#e5e5e5] text-xl leading-relaxed">
-            Online coaching with David gives you access to the same
-            science-backed programming and nutritional guidance that his
-            in-person clients receive — delivered through a structured,
-            personalized program designed around your life, your goals, and your
-            schedule.
+            Online coaching with David gives you the same science-backed
+            programming and nutrition guidance his in-person clients receive —
+            built around your life, your goals, and your schedule.
           </p>
         </section>
 
-        {/* Weekly Zoom Call — 2-column with photo */}
+        {/* The Package — price + what's included, up front */}
+        <section>
+          <h2 className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-8">
+            The Package
+          </h2>
+
+          {/* Price card */}
+          <div className="max-w-md mx-auto mb-10">
+            <div className="bg-[#CC0000]/5 border-2 border-[#CC0000] p-8 flex flex-col gap-4 text-center">
+              <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase">3 Months</p>
+              <p className="text-5xl font-black text-white">$1,200</p>
+              <p className="text-white text-sm">Complete 3-month coaching program</p>
+            </div>
+          </div>
+
+          {/* What's Included */}
+          <h3 className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-6 text-center">
+            What&apos;s Included
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+            {included.map((item, i) => (
+              <div
+                key={item}
+                className={`bg-[#1a1a1a] border p-6 flex gap-4 items-start transition-colors ${
+                  i === 0
+                    ? "border-[#CC0000] hover:border-[#CC0000]"
+                    : "border-[#2a2a2a] hover:border-[#CC0000]"
+                }`}
+              >
+                <span className="font-black text-lg flex-shrink-0 text-[#CC0000]">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <span className={`${i === 0 ? "text-white font-semibold" : "text-[#e5e5e5]"}`}>
+                  {item}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-white text-sm leading-relaxed mb-8 text-center max-w-xl mx-auto">
+            Pricing includes weekly 1-on-1 Zoom calls, custom programming, nutrition guidance, and direct access to David.
+          </p>
+          <div className="text-center">
+            <Link href="/contact" className="btn-primary">
+              Apply for Online Coaching
+            </Link>
+          </div>
+        </section>
+
+        {/* What It Looks Like — Weekly Zoom Call, 2-column with photo */}
         <section className="border-2 border-[#CC0000] bg-[#CC0000]/5 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-2">
             {/* Photo */}
@@ -89,49 +136,20 @@ export default function OnlineCoachingPage() {
               <p className="text-[#e5e5e5] text-lg leading-relaxed mb-6">
                 Every online client gets a{" "}
                 <span className="text-white font-bold">
-                  live 1-on-1 Zoom call with David every single week.
+                  live 1-on-1 Zoom call with David every single week
                 </span>{" "}
-                No pre-recorded check-ins. No AI-generated feedback. No form emails.
-                Real coaching, in real time, every week.
-              </p>
-              <p className="text-white leading-relaxed mb-6">
-                This is where the program gets refined. David reviews your progress,
-                adjusts your training and nutrition, addresses what&apos;s working
-                and what isn&apos;t, and answers every question you have. Most online
-                coaching programs offer a monthly check-in. David gives you a weekly
-                conversation.
+                — no pre-recorded check-ins, no AI feedback, no form emails. Real
+                coaching, in real time.
               </p>
               <p className="text-white leading-relaxed">
-                <span className="text-white font-bold">Accountability.</span>{" "}
-                Knowing you have a scheduled call with David every week changes how you show up — in the gym, in the kitchen, and in your mindset. You&apos;re not just following a program — you have someone in your corner. Someone who knows your goals, tracks your data, reviews your numbers, and shows up every week ready to push you forward. That&apos;s what having a coach on your team actually means. And that weekly commitment is what separates clients who get there from clients who don&apos;t.
+                This is where the program gets refined. David reviews your progress,
+                adjusts your training and nutrition, and answers every question. Most
+                programs offer a monthly check-in; David gives you a weekly
+                conversation — and that standing commitment is what keeps you
+                accountable and separates the clients who get results from the ones
+                who don&apos;t.
               </p>
             </div>
-          </div>
-        </section>
-
-        {/* What's Included */}
-        <section>
-          <h2 className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-8">
-            What&apos;s Included
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {included.map((item, i) => (
-              <div
-                key={item}
-                className={`bg-[#1a1a1a] border p-6 flex gap-4 items-start transition-colors ${
-                  i === 0
-                    ? "border-[#CC0000] hover:border-[#CC0000]"
-                    : "border-[#2a2a2a] hover:border-[#CC0000]"
-                }`}
-              >
-                <span className="font-black text-lg flex-shrink-0 text-[#CC0000]">
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                <span className={`${i === 0 ? "text-white font-semibold" : "text-[#e5e5e5]"}`}>
-                  {item}
-                </span>
-              </div>
-            ))}
           </div>
         </section>
 
@@ -143,12 +161,11 @@ export default function OnlineCoachingPage() {
           <h2 className="text-xl font-bold uppercase tracking-wide text-white mb-4">
             Complete Beginners Are Welcome
           </h2>
-          <p className="text-[#e5e5e5] text-lg leading-relaxed mb-4">
-            David has worked with all skill levels online — from complete beginners who have
-            never touched a weight, to advanced athletes optimizing performance.
-            Every program starts where you are, not where someone else is.
+          <p className="text-[#e5e5e5] text-lg leading-relaxed">
+            David has coached every level online — from complete beginners to
+            advanced athletes. Every program starts where you are, not where someone
+            else is.
           </p>
-
         </section>
 
         {/* Who It's For */}
@@ -162,29 +179,6 @@ export default function OnlineCoachingPage() {
             across the country, if you&apos;re committed to the process, David is
             committed to your results.
           </p>
-        </section>
-
-        {/* Pricing */}
-        <section>
-          <h2 className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-8">
-            Pricing
-          </h2>
-          <div className="max-w-md mx-auto mb-8">
-            {/* 3 Months */}
-            <div className="bg-[#CC0000]/5 border-2 border-[#CC0000] p-8 flex flex-col gap-4 text-center">
-              <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase">3 Months</p>
-              <p className="text-5xl font-black text-white">$1,200</p>
-              <p className="text-white text-sm">Complete 3-month coaching program</p>
-            </div>
-          </div>
-          <p className="text-white text-sm leading-relaxed mb-8 text-center max-w-xl mx-auto">
-            Pricing includes weekly 1-on-1 Zoom calls, custom programming, nutrition guidance, and direct access to David.
-          </p>
-          <div className="text-center">
-            <Link href="/contact" className="btn-primary">
-              Apply for Online Coaching
-            </Link>
-          </div>
         </section>
 
         {/* Spots Limited */}
