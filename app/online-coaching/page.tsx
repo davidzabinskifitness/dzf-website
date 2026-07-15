@@ -169,27 +169,22 @@ export default function OnlineCoachingPage() {
           <h2 className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-8">
             Pricing
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+          <div className="max-w-md mx-auto mb-8">
             {/* 3 Months */}
-            <div className="bg-[#1a1a1a] border border-[#2a2a2a] p-8 flex flex-col gap-4 hover:border-[#CC0000] transition-colors">
+            <div className="bg-[#CC0000]/5 border-2 border-[#CC0000] p-8 flex flex-col gap-4 text-center">
               <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase">3 Months</p>
-              <p className="text-4xl font-black text-white">$1,200</p>
-              <p className="text-white text-sm">Save vs. month-to-month</p>
-            </div>
-            {/* 6 Months */}
-            <div className="bg-[#CC0000]/5 border-2 border-[#CC0000] p-8 flex flex-col gap-4 relative">
-              <span className="absolute top-4 right-4 text-xs font-bold bg-[#CC0000] text-white px-3 py-1 uppercase tracking-widest">Best Value</span>
-              <p className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase">6 Months</p>
-              <p className="text-4xl font-black text-white">$2,100</p>
-              <p className="text-white text-sm">Maximum results, maximum savings</p>
+              <p className="text-5xl font-black text-white">$1,200</p>
+              <p className="text-white text-sm">Complete 3-month coaching program</p>
             </div>
           </div>
-          <p className="text-white text-sm leading-relaxed mb-8">
+          <p className="text-white text-sm leading-relaxed mb-8 text-center max-w-xl mx-auto">
             Pricing includes weekly 1-on-1 Zoom calls, custom programming, nutrition guidance, and direct access to David.
           </p>
-          <Link href="/contact" className="btn-primary">
-            Apply for Online Coaching
-          </Link>
+          <div className="text-center">
+            <Link href="/contact" className="btn-primary">
+              Apply for Online Coaching
+            </Link>
+          </div>
         </section>
 
         {/* Spots Limited */}
