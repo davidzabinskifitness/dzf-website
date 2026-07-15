@@ -11,7 +11,6 @@ export const metadata: Metadata = {
 const stats = [
   { value: "18,000+", label: "Sessions" },
   { value: "13+", label: "Years Experience" },
-  { value: "13+", label: "Certifications" },
   { value: "Houston, TX", label: "Location" },
 ];
 
@@ -116,7 +115,7 @@ export default function HomePage() {
       {/* Stats bar */}
       <section className="bg-[#CC0000] py-6">
         <div className="max-w-5xl mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div className="grid grid-cols-3 gap-6 text-center">
             {stats.map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl sm:text-3xl font-black text-black">
