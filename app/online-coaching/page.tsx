@@ -51,10 +51,6 @@ export default function OnlineCoachingPage() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-20 space-y-16">
         {/* The Package — price + what's included, up front */}
         <section>
-          <h2 className="text-[#CC0000] text-xs font-bold tracking-[0.3em] uppercase mb-8">
-            The Package
-          </h2>
-
           {/* Price card */}
           <div className="max-w-md mx-auto mb-10">
             <div className="bg-[#CC0000]/5 border-2 border-[#CC0000] p-8 flex flex-col gap-4 text-center">
