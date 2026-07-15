@@ -100,9 +100,6 @@ export default function TrainingPage() {
             </div>
           </div>
 
-          <p className="text-center text-white text-sm mb-8">
-            Session packages and monthly rates available. Contact David to discuss options that fit your schedule and goals.
-          </p>
           <div className="text-center">
             <Link href="/contact" className="btn-primary">
               Book a Consultation
