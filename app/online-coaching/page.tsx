@@ -20,7 +20,6 @@ const included = [
   "Progress tracking and weekly check-ins",
   "Form review via video submission",
   "Direct access to David via messaging",
-  "Access to David's full methodology and programming system",
 ];
 
 export default function OnlineCoachingPage() {
