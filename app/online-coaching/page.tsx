@@ -18,7 +18,7 @@ const included = [
   "Fully customized training program (updated monthly)",
   "Nutrition guidance and meal structure",
   "Progress tracking and weekly check-ins",
-  "Form review via video submission",
+  "Exercise technique review via video submission",
   "Direct access to David via messaging",
 ];
 
