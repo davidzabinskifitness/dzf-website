@@ -124,21 +124,6 @@ export default function GolfFitnessPage() {
           <div className="mb-10">
             <h2 className="section-title text-3xl mb-4">The TPI Difference</h2>
             <div className="gold-line mb-6" />
-            <p className="text-[#e5e5e5] text-lg leading-relaxed max-w-3xl">
-              The Titleist Performance Institute has studied over{" "}
-              <span className="text-white font-bold">50,000 golfers</span> —
-              from weekend amateurs to the world&apos;s best PGA Tour players.
-              What they found is that{" "}
-              <span className="text-white font-bold">
-                there is no single perfect golf swing
-              </span>
-              , but there is a most efficient swing for every body. TPI&apos;s
-              research directly links specific physical limitations to specific
-              swing faults. When your hips can&apos;t rotate, your swing
-              compensates. When your thoracic spine is locked up, your swing
-              compensates. The same methodology used by coaches on the PGA Tour
-              is what David applies to every golf fitness client.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
@@ -160,14 +145,6 @@ export default function GolfFitnessPage() {
             ))}
           </div>
 
-          <div className="mt-8 bg-[#CC0000]/5 border border-[#CC0000] p-8">
-            <p className="text-[#e5e5e5] text-lg leading-relaxed">
-              <span className="text-[#CC0000] font-bold">Bottom line:</span> If
-              your body can&apos;t do it, your swing can&apos;t do it. TPI gives
-              David the tools to assess where your body is limiting your game —
-              and the programming to fix it.
-            </p>
-          </div>
         </section>
 
         <div className="border-t border-[#2a2a2a]" />
