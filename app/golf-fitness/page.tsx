@@ -95,8 +95,8 @@ export default function GolfFitnessPage() {
         <div className="border-t border-[#2a2a2a]" />
 
         {/* TPI Certified */}
-        <section className="grid grid-cols-1 md:grid-cols-5 gap-10 items-start">
-          <div className="md:col-span-2">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+          <div>
             <h2 className="section-title text-2xl mb-4">TPI Certified</h2>
             <div className="gold-line" />
             <div className="mt-6 inline-block bg-[#CC0000]/10 border border-[#CC0000] px-4 py-2">
@@ -105,7 +105,7 @@ export default function GolfFitnessPage() {
               </span>
             </div>
           </div>
-          <div className="md:col-span-3">
+          <div>
             <p className="text-[#e5e5e5] text-lg leading-relaxed">
               David holds the Titleist Performance Institute (TPI) Fitness Coach
               certification — the same credential used by trainers working with
