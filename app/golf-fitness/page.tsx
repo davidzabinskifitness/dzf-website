@@ -179,10 +179,10 @@ export default function GolfFitnessPage() {
             <h2 className="section-title text-2xl mb-4">David&apos;s Golf Background</h2>
             <div className="gold-line mb-6" />
             <p className="text-[#e5e5e5] text-lg leading-relaxed mb-5">
-              David&apos;s connection to golf goes back long before the gym. Growing up, he competed in Junior HGA and STPGA tournaments, developing a deep, firsthand understanding of what the game demands from the body.
+              David&apos;s connection to golf goes back long before the gym. He competed in high school and in Junior HGA and STPGA tournaments, and he&apos;s been passionate about the game ever since — he still plays and works on his own game today. Back then, though, he understood the game, not the demands it was placing on his body.
             </p>
             <p className="text-[#e5e5e5] text-lg leading-relaxed mb-5">
-              That competitive background is what drives his passion for golf fitness — he&apos;s not a trainer who read about the golf swing in a textbook. He lived it. He knows the frustration of physical limitations holding your game back, and he knows what it feels like when the body finally moves the way it&apos;s supposed to.
+              That understanding came later. Now, as he&apos;s gotten older, he sees the physical side clearly — the mobility restrictions and limitations that quietly hold a swing back. That&apos;s what drives his passion for golf fitness: he&apos;s not a trainer who read about the golf swing in a textbook. He lived it. He knows the frustration of physical limitations holding your game back, and he knows what it feels like when the body finally moves the way it&apos;s supposed to.
             </p>
             <p className="text-[#e5e5e5] text-lg leading-relaxed">
               When David trains a golfer, he&apos;s drawing on decades of experience on both sides of the equation — as a competitive player and as a TPI-certified fitness coach.
