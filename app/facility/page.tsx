@@ -25,10 +25,10 @@ export default function FacilityPage() {
       {/* Hero */}
       <section className="relative border-b border-[#2a2a2a] overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/gym-hero.png" alt="The Gym training facility" fill className="object-contain sm:object-cover object-center opacity-100" priority />
+          <Image src="/images/gym-hero.png" alt="The Gym training facility" fill className="object-contain object-center opacity-100" priority />
         </div>
         
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-48 sm:py-64">
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-32">
           <h1 className="section-title mb-4">The Gym</h1>
           <div className="gold-line mb-6" />
           <p className="text-white text-2xl sm:text-3xl max-w-2xl font-semibold tracking-wide" style={{ textShadow: "1px 2px 8px rgba(0,0,0,0.8)" }}>
