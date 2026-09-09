@@ -42,25 +42,25 @@ export default function FacilityPage() {
         <section className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
           <div className="lg:col-span-3 space-y-6">
             <p className="text-[#e5e5e5] text-lg leading-relaxed">
-              The best thing about the Garage is that it&apos;s a safe space.
-              Whether you&apos;re just starting your health journey or you&apos;re
-              an elite athlete, the Garage offers a unique environment to focus
-              on your success. Zero distractions, only results.
+              This private training facility is designed to make personal training
+              as focused and efficient as possible. There are no membership fees,
+              crowded workout floors, waiting for equipment, or unnecessary
+              distractions. Just a private space where every session is centered
+              on your goals.
             </p>
             <p className="text-[#e5e5e5] text-lg leading-relaxed">
-              David has invested in top of the line equipment to fully outfit his
-              private training facility. With a wide variety of equipment from
-              traditional barbells and dumbbells, to the unconventional
-              kettlebells and mobility tools. The gym is fully equipped and he is
-              constantly upgrading year to year.
+              David has installed a dedicated mini-split system that provides both
+              air conditioning and heating, keeping the gym comfortable through
+              Houston&apos;s hottest summers and coldest winter days. You can train
+              comfortably and consistently year-round.
             </p>
             <p className="text-[#e5e5e5] text-lg leading-relaxed">
-              On site there is also a full recovery space, including Infrared
-              Sauna and Cold Plunge that active clients only have access to. On
-              site there is also a full changing room, a fully equipped bathroom
-              with shower, fresh clean towels, organic shampoo, conditioner and
-              body wash. Whether you&apos;re stopping by before work or your lunch
-              hour, we&apos;ve got you covered.
+              Drawing on more than 13 years in the fitness industry, David has
+              carefully selected and invested in top-of-the-line equipment to
+              create a complete training environment. From traditional barbells
+              and dumbbells to specialized strength, mobility, and conditioning
+              tools, every piece serves a purpose and supports customized,
+              results-driven training.
             </p>
           </div>
 
