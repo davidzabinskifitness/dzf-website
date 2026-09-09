@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+facility-exterior.jpg
+  gym-hero.pngimport type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import GarageMap from "@/components/GarageMap";
