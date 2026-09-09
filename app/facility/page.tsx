@@ -28,7 +28,7 @@ export default function FacilityPage() {
           <Image src="/images/gym-hero-titleist.png" alt="The Gym training facility" fill className="object-cover object-[center_45%] opacity-100" priority />
         </div>
         
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-32">
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-40 sm:py-44">
           <h1 className="section-title mb-4">The Gym</h1>
           <div className="gold-line mb-6" />
           <p className="text-white text-2xl sm:text-3xl max-w-2xl font-semibold tracking-wide" style={{ textShadow: "1px 2px 8px rgba(0,0,0,0.8)" }}>
