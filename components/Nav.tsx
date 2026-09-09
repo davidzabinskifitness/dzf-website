@@ -10,7 +10,7 @@ const navLinks = [
   { href: "/experience", label: "Experience" },
   { href: "/training", label: "Training" },
   { href: "/golf-fitness", label: "Golf Fitness" },
-  { href: "/facility", label: "The Garage" },
+  { href: "/facility", label: "The Gym" },
   { href: "/online-coaching", label: "Online Coaching" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
