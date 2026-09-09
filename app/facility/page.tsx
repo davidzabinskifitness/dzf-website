@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 
 const features = [
   "Private training facility",
-  "Infrared Sauna (active clients only)",
-  "Cold Plunge (active clients only)",
+  "Temperature-controlled environment",
+  "Custom bug screen for a bug-free workout",
   "Full changing room",
   "Bathroom with shower",
   "Fresh towels + organic products provided",
