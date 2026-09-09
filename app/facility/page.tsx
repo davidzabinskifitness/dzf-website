@@ -91,7 +91,7 @@ export default function FacilityPage() {
             <Image src="/images/gym-glass-door-view.png" alt="The Gym facing the glass garage door" fill className="object-cover hover:scale-105 transition-transform duration-500" />
           </div>
           <div className="relative aspect-[4/3] overflow-hidden">
-            <Image src="/images/facility-detail.jpg" alt="Equipment accessories wall" fill className="object-cover hover:scale-105 transition-transform duration-500" />
+            <Image src="/images/gym-second-photo.png" alt="The Gym training equipment and glass garage door" fill className="object-cover hover:scale-105 transition-transform duration-500" />
           </div>
         </section>
 
