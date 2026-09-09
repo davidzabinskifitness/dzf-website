@@ -1,5 +1,4 @@
-facility-exterior.jpg
-  gym-hero.pngimport type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import GarageMap from "@/components/GarageMap";
@@ -26,7 +25,7 @@ export default function FacilityPage() {
       {/* Hero */}
       <section className="relative border-b border-[#2a2a2a] overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/facility-exterior.jpg" alt="The Garage exterior" fill className="object-cover object-center opacity-100" priority />
+          <Image src="/images/gym-hero.png" alt="The Gym training facility" fill className="object-cover object-center opacity-100" priority />
         </div>
         
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-32">
