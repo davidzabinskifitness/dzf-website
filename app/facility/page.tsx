@@ -82,7 +82,7 @@ export default function FacilityPage() {
         {/* Facility photo grid */}
         <section className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="relative aspect-[4/3] overflow-hidden">
-            <Image src="/images/facility-exterior.jpg" alt="The Garage exterior" fill className="object-cover hover:scale-105 transition-transform duration-500" />
+            <Image src="/images/gym-hero-titleist.png" alt="The Gym training facility" fill className="object-cover hover:scale-105 transition-transform duration-500" />
           </div>
           <div className="relative aspect-[4/3] overflow-hidden">
             <Image src="/images/gym-second-photo.png" alt="The Gym training equipment and glass garage door" fill className="object-cover hover:scale-105 transition-transform duration-500" />
