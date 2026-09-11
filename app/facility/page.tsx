@@ -51,10 +51,11 @@ export default function FacilityPage() {
             <p className="text-[#e5e5e5] text-lg leading-relaxed">
               David has installed a dedicated mini-split system that provides both
               air conditioning and heating, keeping the gym comfortable through
-              Houston&apos;s hottest summers and coldest winter days. You can train
-              comfortably and consistently year-round. A custom bug screen also
-              allows fresh air into the space while keeping mosquitoes and other
-              pests out.
+              Houston&apos;s hottest summers and coldest winter days. On days when
+              fresh air is the better option, a custom-fitted bug screen allows
+              the garage door to stay open while keeping mosquitoes and other
+              pests outside. Together, these features create a comfortable,
+              distraction-free training environment year-round.
             </p>
             <p className="text-[#e5e5e5] text-lg leading-relaxed">
               Drawing on more than 13 years in the fitness industry, David has
