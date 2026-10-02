@@ -23,9 +23,9 @@ export default function FacilityPage() {
   return (
     <div className="pt-20 md:pt-24">
       {/* Hero */}
-      <section className="border-b border-[#2a2a2a]">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-stretch">
-          <div className="flex flex-col justify-center px-6 py-12 sm:px-10 md:px-12 lg:px-20 md:py-16">
+      <section className="border-b border-[#2a2a2a] px-4 sm:px-6 py-8 md:py-10">
+        <div className="max-w-[1040px] mx-auto grid grid-cols-1 md:grid-cols-2 items-stretch">
+          <div className="flex flex-col justify-center px-2 py-8 sm:px-6 md:pl-0 md:pr-12 md:py-10">
             <h1 className="section-title mb-5">The Gym</h1>
             <div className="gold-line mb-6" />
             <p className="max-w-lg text-[#e5e5e5] text-xl sm:text-2xl lg:text-3xl font-medium leading-relaxed">
