@@ -23,17 +23,18 @@ export default function FacilityPage() {
   return (
     <div className="pt-20 md:pt-24">
       {/* Hero */}
-      <section className="relative border-b border-[#2a2a2a] overflow-hidden">
-        <div className="absolute inset-0">
-          <Image src="/images/gym-original-captions-removed.png" alt="David behind the garage-door bug screen" fill sizes="100vw" className="object-contain object-center opacity-100" priority />
-        </div>
-        
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-40 sm:py-44">
-          <h1 className="section-title mb-4">The Gym</h1>
-          <div className="gold-line mb-6" />
-          <p className="text-white text-2xl sm:text-3xl max-w-2xl font-semibold tracking-wide" style={{ textShadow: "1px 2px 8px rgba(0,0,0,0.8)" }}>
-            A private training environment built for results.
-          </p>
+      <section className="border-b border-[#2a2a2a]">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-12 px-4 sm:px-6 py-10 md:py-14">
+          <div>
+            <h1 className="section-title mb-4">The Gym</h1>
+            <div className="gold-line mb-6" />
+            <p className="text-white text-2xl sm:text-3xl font-semibold tracking-wide leading-snug">
+              A private training environment built for results.
+            </p>
+          </div>
+          <div className="relative aspect-square w-full overflow-hidden">
+            <Image src="/images/gym-original-captions-removed.png" alt="David behind the garage-door bug screen" fill sizes="(min-width: 1152px) 528px, (min-width: 768px) 50vw, 100vw" className="object-contain" priority />
+          </div>
         </div>
       </section>
 
