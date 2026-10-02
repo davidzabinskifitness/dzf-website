@@ -24,16 +24,16 @@ export default function FacilityPage() {
     <div className="pt-20 md:pt-24">
       {/* Hero */}
       <section className="border-b border-[#2a2a2a]">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-12 px-4 sm:px-6 py-10 md:py-14">
-          <div>
-            <h1 className="section-title mb-4">The Gym</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 items-stretch">
+          <div className="flex flex-col justify-center px-6 py-12 sm:px-10 md:px-12 lg:px-20 md:py-16">
+            <h1 className="section-title mb-5">The Gym</h1>
             <div className="gold-line mb-6" />
-            <p className="text-white text-2xl sm:text-3xl font-semibold tracking-wide leading-snug">
+            <p className="max-w-lg text-[#e5e5e5] text-xl sm:text-2xl lg:text-3xl font-medium leading-relaxed">
               A private training environment built for results.
             </p>
           </div>
           <div className="relative aspect-square w-full overflow-hidden">
-            <Image src="/images/gym-original-captions-removed.png" alt="David behind the garage-door bug screen" fill sizes="(min-width: 1152px) 528px, (min-width: 768px) 50vw, 100vw" className="object-contain" priority />
+            <Image src="/images/gym-original-captions-removed.png" alt="David behind the garage-door bug screen" fill sizes="(min-width: 768px) 50vw, 100vw" className="object-contain" priority />
           </div>
         </div>
       </section>
