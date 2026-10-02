@@ -25,7 +25,7 @@ export default function FacilityPage() {
       {/* Hero */}
       <section className="relative border-b border-[#2a2a2a] overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/gym-bug-screen-hero.png" alt="David standing behind the garage-door bug screen at The Gym" fill sizes="100vw" className="object-cover object-[center_45%] opacity-100" priority />
+          <Image src="/images/gym-hero-titleist.png" alt="The Gym training facility" fill className="object-cover object-[center_45%] opacity-100" priority />
         </div>
         
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-40 sm:py-44">
